@@ -49,3 +49,12 @@ Understand Git architecture and perform hands-on branching, merging, and conflic
     Every change to code, infrastructure, or configuration is version-controlled in Git.
     It enables collaboration, rollback, and traceability — essential for CI/CD pipelines to know exactly which version of code or IaC is being built, tested, or deployed.
     Without Git, automation would have no reliable base to track changes.
+
+
+## Bonus Commands 
+    git status                   # shows staged/unstaged files
+    git diff                     # view code differences
+    git reflog                   # shows every move HEAD made (useful to recover lost commits)
+    git stash && git stash pop   # temporarily save work
+    git remote -v                # verify remote URLs
+
